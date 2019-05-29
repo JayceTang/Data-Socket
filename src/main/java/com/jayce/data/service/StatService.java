@@ -5,6 +5,6 @@ import com.jayce.data.dto.SignalStatDataDto;
 import java.util.List;
 import java.util.Map;
 
-public interface StatServiceI {
+public interface StatService {
     List<SignalStatDataDto> findAll();
 }

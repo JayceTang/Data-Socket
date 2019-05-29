@@ -3,7 +3,7 @@ package com.jayce.data.service.impl;
 import com.jayce.data.dto.SignalStatDataDto;
 import com.jayce.data.entity.SignalStatData;
 import com.jayce.data.repository.StatRepository;
-import com.jayce.data.service.StatServiceI;
+import com.jayce.data.service.StatService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 @Service
-public class StatServiceImpl implements StatServiceI {
+public class StatServiceImpl implements StatService {
 
     @Autowired
     private StatRepository repository;
