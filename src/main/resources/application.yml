@@ -8,3 +8,11 @@ spring:
     show-sql: true
   jackson:
     default-property-inclusion: non_null
+
+  #logging:
+  #  pattern:
+  #    console: "%d - %msg%n"
+  # # path: D:/test/新建文件夹/
+  #  file: D:/test/新建文件夹/data.log      #指定日志文件名
+  #  level:
+  #    com.jayce.sell.TestLogger: DEBUG
